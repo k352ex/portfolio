@@ -5,16 +5,25 @@
             <div class="col-lg-12">
                 <%= image_tag "project1.png", class: "img-responsive img-circle", width: "256", height: "256" %>
                 <div class="intro-text">
-                    <span class="name"> 박민기 </span>
+                    <span class="name"> <%= @name %> </span>
                         <div id="typed-strings">
-                            <p>Hello World </p>
-                            <p>I will become a <em> WebDeveloper </em> </p>
-                            <p>Likelion</p>
-                            <p>Try it out!</p>
+                            <% @header_intro.each do |x| %>
+                                <p> <%= x %> </p>
+                            <% end %>
                         </div>
                         <span id="typed" style="white-space:pre;"></span>
                     <hr class="star-light">
                     <span class="skills"> Wonkwang University Computer Engineering 3rd  - Web Developer </span>
+                    <p style="padding:20px"> Email : <%= @email %> </p>
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <ul class="list-inline top-social">
+                            <li>Follow Me:</li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -29,7 +38,7 @@ $(function(){
     $("#typed").typed({
         // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
         stringsElement: $('#typed-strings'),
-        typeSpeed: 80,
+        typeSpeed: 100,
         backDelay: 500,
         loop: true,
         contentType: 'html', // or text
