@@ -59,15 +59,15 @@ body{
 	position: relative;
 }
 h1{
-	font-size: 6em;
+	font-size: 4em;
 }
 
 h2{
-    font-size : 4em;
+    font-size : 2em;
 }
 
 p{
-	font-size: 2em;
+	font-size: 1em;
 }
 .intro p{
 	width: 50%;

@@ -6,6 +6,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
+				<a href="http://localhost:3000/index/main", id="intro"> Portfolio </a>
 				<%= link_to "Portfolio", "index/main", id: "intro" %>
 			</div>
 		</div>
@@ -39,6 +40,12 @@
             anchors: ['firstPage', 'secondPage', '3rdPage'],
             sectionsColor: ['#3db5cb', '#DE564B', '#702ec3'],
             slidesNavigation: true,
+			scrollOverflow: false,
+			scrollBar: true,
+			css3: true
         });
     });
+
+	$('#intro').Click(function() {
+	});
 </script>
