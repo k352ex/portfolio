@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'thin'
+gem 'thin' # 루비 웹 서버 webbrick보다 안정적
 
-gem 'figaro'
+gem 'figaro' # 보안등급 향상을 위해 사용 secreat key 관련 젬
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
@@ -14,7 +15,7 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
-gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby # Production으로 배포하기 위해서 필요 
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
