@@ -10,11 +10,11 @@
 }
 
 .callout {
+    background: image-url("bg.jpg") no-repeat center center scroll;
     display: table;
     width: 100%;
     height: 400px;
     // color: #fff !important;
-    background: image-url("bg.jpg") no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -30,10 +30,10 @@
 @media(min-width:300px) {
     .text-vertical-center h1 {
         color: #fff !important;
-        margin: 0;
-        padding: 0;
         font-size: 2.5em;
         font-weight: 700;
+        margin: 0;
+        padding: 0;
     }
 
     .countdown {
@@ -84,11 +84,35 @@
 
 
 // Follow me : icon
-.fa-facebook, .fa-google-plus, .fa-linkedin, .fa-twitter, .fa-github {
-    padding-top: 30px;
+.fa-facebook,
+.fa-google-plus,
+.fa-linkedin,
+.fa-twitter,
+.fa-github {
     color: white;
+    padding-top: 30px;
 }
 
+// skill
+
+.skill {
+    padding: 10px 10px 10px 10px;
+    font-size: 1em;
+}
+
+.skill_list {
+    font-weight: bold;
+    padding: 5px;
+}
+
+// Timeline
+.timeline_content_block {
+    list-style-type: square;
+}
+
+.timeline_content {
+    margin: 20px;
+}
 
 // Project Css
 
