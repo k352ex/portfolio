@@ -1,27 +1,18 @@
-== README
+== Portfolio by k352ex
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This site is portfolio by minki pak.
 
-Things you may want to cover:
-
+* Project
+    <tt> 1. 원광대학교 컴퓨터공학과 커뮤니티 사이트 </tt>
 * Ruby version
+    <tt> 2.3.0 </tt>
+* Stack
+    Ruby on Rails
+    AWS EC2
+    travis-ci
+    jquery
+    
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 
 
 Please feel free to use a different markup language if you do not plan to run
